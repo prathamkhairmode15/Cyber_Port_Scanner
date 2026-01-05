@@ -1,0 +1,180 @@
+/* =======================
+   GLOBAL THEME
+   ======================= */
+
+body.dark{
+    background:#050b14;
+    color:#e7f1ff;
+    font-family:'Segoe UI', Tahoma, Arial;
+}
+
+body.light{
+    background:#f7f9ff;
+    color:#0d1b2a;
+    font-family:'Segoe UI', Tahoma, Arial;
+}
+
+.accent{
+    color:#4dd2ff;
+}
+
+.title{
+    color:#f1f6ff;
+    font-weight:650;
+}
+
+
+
+/* =======================
+   HERO
+   ======================= */
+
+.hero{
+    position:relative;
+    height:220px;
+    background:radial-gradient(ellipse at top,#072038,#000);
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    opacity:.14;
+}
+
+.hero-content{
+    position:relative;
+    text-align:center;
+    padding-top:55px;
+}
+
+.hero h1{
+    font-size:38px;
+    font-weight:700;
+}
+
+.hero p{
+    opacity:.9;
+}
+
+
+
+/* =======================
+   CARDS / PANELS
+   ======================= */
+
+.glass{
+    background:rgba(15,22,35,.80);
+    border:1px solid rgba(90,150,255,.28);
+    border-radius:16px;
+    box-shadow:0 0 30px rgba(0,0,0,.4);
+}
+
+
+
+/* =======================
+   LABELS / INPUTS
+   ======================= */
+
+.label{
+    color:#d5e8ff;
+    font-weight:520;
+}
+
+.cyber-input{
+    background:#0b1526;
+    border:1px solid #2a456f;
+    color:#e7f4ff;
+}
+
+.cyber-input::placeholder{
+    color:#8fb4d9;
+}
+
+.cyber-input:focus{
+    outline:none;
+    border-color:#4dd2ff;
+    box-shadow:0 0 10px #4dd2ff66;
+}
+
+
+
+/* =======================
+   BUTTONS
+   ======================= */
+
+.cyber-btn{
+    background:linear-gradient(135deg,#00d2ff,#0078ff);
+    color:white;
+    border:none;
+    font-weight:650;
+}
+
+.cyber-btn:hover{
+    filter:brightness(1.12);
+}
+
+
+
+/* =======================
+   PROGRESS BAR
+   ======================= */
+
+.cyber-progress{
+    background:#0d1e36;
+    border-radius:8px;
+}
+
+.cyber-progress .progress-bar{
+    background:linear-gradient(90deg,#00ffa5,#00d2ff);
+}
+
+
+
+/* =======================
+   RESULTS PANEL (READABLE)
+   ======================= */
+
+.results-panel{
+    background:#061324;
+    border:1px solid #204072;
+    border-radius:14px;
+    padding:18px;
+    margin-top:12px;
+    color:#dbe9ff;             /* <<< main results text */
+}
+
+.results-panel div{
+    color:#dbe9ff;
+}
+
+.result-title{
+    font-size:16px;
+    color:#ffffff;             /* <<< labels fully white */
+    font-weight:650;
+}
+
+
+
+/* PORT TAG STYLE */
+.port-badge{
+    display:inline-block;
+    background:#0e2a4d;
+    border:1px solid #3f7bd9;
+    color:#cfe4ff;
+    padding:6px 12px;
+    border-radius:8px;
+    margin:4px;
+}
+
+
+
+/* VULNERABILITY TAG STYLE */
+.vuln{
+    background:#351010;
+    border:1px solid #ff7070;
+    color:#ffd4d4;
+    padding:8px 10px;
+    border-radius:10px;
+    margin:6px 0;
+    display:block;
+}
